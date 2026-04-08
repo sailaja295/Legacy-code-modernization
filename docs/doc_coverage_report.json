@@ -1,0 +1,9 @@
+{
+  "total_classes_in_ir": 54,
+  "classes_covered_in_doc": 48,
+  "class_coverage_percent": 88.89,
+  "total_methods_in_ir": 120,
+  "methods_covered_in_doc": 108,
+  "method_coverage_percent": 90.0,
+  "doc_path": "docs/system_design.md"
+}

@@ -1,0 +1,30 @@
+{
+  "classes": [
+    {
+      "name": "BatchCheque",
+      "fields": [
+        {
+          "name": "accountNumber",
+          "type": "String"
+        },
+        {
+          "name": "chequeNumber",
+          "type": "String"
+        },
+        {
+          "name": "currency",
+          "type": "String"
+        },
+        {
+          "name": "amount",
+          "type": "double"
+        },
+        {
+          "name": "signature",
+          "type": "String"
+        }
+      ],
+      "methods": []
+    }
+  ]
+}

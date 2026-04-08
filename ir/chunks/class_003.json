@@ -1,0 +1,50 @@
+{
+  "classes": [
+    {
+      "name": "ChequePrintingService",
+      "fields": [],
+      "methods": [
+        {
+          "name": "printCheque",
+          "parameters": [
+            {
+              "name": "payeeName",
+              "type": "String"
+            },
+            {
+              "name": "amount",
+              "type": "double"
+            },
+            {
+              "name": "date",
+              "type": "Date"
+            },
+            {
+              "name": "accountNumber",
+              "type": "String"
+            },
+            {
+              "name": "chequeNumber",
+              "type": "String"
+            },
+            {
+              "name": "bankName",
+              "type": "String"
+            }
+          ],
+          "return_type": "void",
+          "modifiers": [
+            "public"
+          ],
+          "calls": [
+            "getCurrencyInstance",
+            "println",
+            "printf",
+            "toUpperCase",
+            "format"
+          ]
+        }
+      ]
+    }
+  ]
+}

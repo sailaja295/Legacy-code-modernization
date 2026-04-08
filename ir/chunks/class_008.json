@@ -1,0 +1,26 @@
+{
+  "classes": [
+    {
+      "name": "FIRDetails",
+      "fields": [
+        {
+          "name": "firNumber",
+          "type": "String"
+        },
+        {
+          "name": "policeStation",
+          "type": "String"
+        },
+        {
+          "name": "firDate",
+          "type": "Date"
+        },
+        {
+          "name": "remarks",
+          "type": "String"
+        }
+      ],
+      "methods": []
+    }
+  ]
+}

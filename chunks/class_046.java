@@ -1,0 +1,3 @@
+class ExceptionReportManager {
+        static
+class

@@ -1,0 +1,34 @@
+{
+  "classes": [
+    {
+      "name": "ExceptionRecord",
+      "fields": [
+        {
+          "name": "accountNumber",
+          "type": "String"
+        },
+        {
+          "name": "chequeNumber",
+          "type": "String"
+        },
+        {
+          "name": "type",
+          "type": "String"
+        },
+        {
+          "name": "details",
+          "type": "String"
+        },
+        {
+          "name": "date",
+          "type": "Date"
+        },
+        {
+          "name": "firDetails",
+          "type": "FIRDetails"
+        }
+      ],
+      "methods": []
+    }
+  ]
+}

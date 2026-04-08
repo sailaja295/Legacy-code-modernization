@@ -1,0 +1,63 @@
+{
+  "classes": [
+    {
+      "name": "UserService",
+      "fields": [
+        {
+          "name": "users",
+          "type": "Map<String, User>"
+        }
+      ],
+      "methods": [
+        {
+          "name": "registerUser",
+          "parameters": [
+            {
+              "name": "username",
+              "type": "String"
+            },
+            {
+              "name": "password",
+              "type": "String"
+            },
+            {
+              "name": "role",
+              "type": "String"
+            }
+          ],
+          "return_type": "void",
+          "modifiers": [
+            "public"
+          ],
+          "calls": [
+            "put",
+            "println"
+          ]
+        },
+        {
+          "name": "authenticate",
+          "parameters": [
+            {
+              "name": "username",
+              "type": "String"
+            },
+            {
+              "name": "password",
+              "type": "String"
+            }
+          ],
+          "return_type": "User",
+          "modifiers": [
+            "public"
+          ],
+          "calls": [
+            "get",
+            "getPassword",
+            "equals",
+            "println"
+          ]
+        }
+      ]
+    }
+  ]
+}

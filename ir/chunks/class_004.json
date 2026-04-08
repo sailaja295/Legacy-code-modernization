@@ -1,0 +1,50 @@
+{
+  "classes": [
+    {
+      "name": "User",
+      "fields": [
+        {
+          "name": "username",
+          "type": "String"
+        },
+        {
+          "name": "password",
+          "type": "String"
+        },
+        {
+          "name": "role",
+          "type": "String"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getUsername",
+          "parameters": [],
+          "return_type": "String",
+          "modifiers": [
+            "public"
+          ],
+          "calls": []
+        },
+        {
+          "name": "getPassword",
+          "parameters": [],
+          "return_type": "String",
+          "modifiers": [
+            "public"
+          ],
+          "calls": []
+        },
+        {
+          "name": "getRole",
+          "parameters": [],
+          "return_type": "String",
+          "modifiers": [
+            "public"
+          ],
+          "calls": []
+        }
+      ]
+    }
+  ]
+}

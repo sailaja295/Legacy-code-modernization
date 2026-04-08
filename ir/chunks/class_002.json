@@ -1,0 +1,34 @@
+{
+  "classes": [
+    {
+      "name": "EmailNotificationService",
+      "fields": [],
+      "methods": [
+        {
+          "name": "sendEmail",
+          "parameters": [
+            {
+              "name": "to",
+              "type": "String"
+            },
+            {
+              "name": "subject",
+              "type": "String"
+            },
+            {
+              "name": "body",
+              "type": "String"
+            }
+          ],
+          "return_type": "void",
+          "modifiers": [
+            "public"
+          ],
+          "calls": [
+            "println"
+          ]
+        }
+      ]
+    }
+  ]
+}
